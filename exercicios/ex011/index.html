@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>imagens com tamanhos diferentes</h1>
+    <p>tente abrir esse site em diferentes dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto2-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto2-m.png" type="image/png">
+        <img src="imagens/foto2-g.png" alt="imagem basilica">
+    </picture>
+    <audio controls loop preload="metadata">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir o audio <a href="midia/guanacast-33.mp3">baixe aqui</a></p>
+    </audio>
+    
+</body>
+</html>

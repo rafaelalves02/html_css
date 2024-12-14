@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(1, 192, 192);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .destaque::after {
+            content: '//';
+        }
+
+        .destaque::before {
+            content: '//';
+        }
+
+        .destaque {
+            background-color: rgba(255, 0, 0, 0.537);
+        }
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <ul>
+        <li><a href="#" class="destaque">youtube</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">whatsapp</a></li>
+    </ul>
+    
+</body>
+</html>

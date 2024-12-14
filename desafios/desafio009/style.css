@@ -1,0 +1,13 @@
+@charset "UTF-8";
+ 
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: antiquewhite;
+}
+a{
+    color: antiquewhite;
+}
