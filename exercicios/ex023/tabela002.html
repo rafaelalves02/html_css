@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            background-color: rgb(83, 83, 83);
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>população dos estados</caption>
+        <thead>
+           <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 90px;">população</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">
+                    total:
+                </th>
+                <td class="num">
+                    <strong>um montão</strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
