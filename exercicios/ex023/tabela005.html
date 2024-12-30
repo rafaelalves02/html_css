@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela</title>
+    <title>Document</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -22,10 +22,28 @@
             text-align: center;
             padding: 10px;
         }
+
+        .grupos {
+            background-color: rgba(0, 0, 0, 0.304);
+        
+        }
+
+        .nomes {
+            background-color: gray;
+        }
+
+        .filmes {
+            background-color: rgb(158, 158, 158);
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="grupos">
+            <col class="nomes">
+            <col class="filmes" span="3">
+        </colgroup>
         <caption>filmes preferidos</caption>
         <thead>
             <th scope="col">grupos</th>
