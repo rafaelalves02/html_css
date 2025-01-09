@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+   }
+
+    main {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to bottom, #60c0db, #6BA2B1);
+    }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       background-color: #ffffff;
+        box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.415);
+        min-width: 400px;
+        min-height: 400px;
+        padding: 30px; 
+        border-radius: 30px;
+
+    }
+
+    h1 {
+        font-size: 4em;
+        text-align: left;
+       
+    }
+
+    form {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        min-width: 400px;
+        line-height: 50px;
+    }
+
+    input {
+        height: 2em;
+        border-radius: 7px;
+        background-color: rgb(254, 255, 255);
+        width: 250px;
+    }
+
+    .dados {
+        font-size: 2em;
+        
+    }
+
+    #psubmit {
+       padding-top: 30px;   
+    }
+    #submit {
+        background-image: linear-gradient(to bottom, #60c0db, #6BA2B1);
+        font-size: 1.3em;
+    }
+    #submit:hover {
+        background-image: linear-gradient(to bottom, hsl(193, 63%, 67%), hsl(193, 31%, 61%));
+        transform: translate(-3px, -3px);
+    } 
