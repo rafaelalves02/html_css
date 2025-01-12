@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+        <p>
+            <label for="inum">nota</label>
+            <input type="number" name="num" id="inum" max="2" required placeholder="nota">
+        </p>
+        <p>
+            <label for="imonth">mês:</label><input type="month" name="month" id="imonth">
+        </p>
+        <p>
+            <label for="idate">data:</label>
+            <input type="date" name="date" id="idate">
+        </p>
+        <p>
+            <label for="itime">hora</label>
+            <input type="time" name="time" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="linpar">
+        </p>
+    </form>
+</body>
+</html>
