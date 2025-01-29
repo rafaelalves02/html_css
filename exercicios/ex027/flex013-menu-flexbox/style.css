@@ -23,13 +23,10 @@ header {
 }
 
 header h1 {
-    
     flex: 0 0 150px;
 }
 
 header nav {
-    
-
     display: flex;
 }
 
@@ -57,4 +54,26 @@ main {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
     border-radius: 10px;
     margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        display: block;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header nav {
+        align-items: center;
+        flex-flow: column nowrap;
+    }
+
+    header a {
+        width: 90%;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
